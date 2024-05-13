@@ -1,4 +1,4 @@
-# Aula 2 (add, diff, commit, push)
+# Aula 3 (add, diff, commit, push)
 
 Nessa aula iremos aprender os comandos básicos de escrita do git, são eles: `add`, `commit` e `push`.
 
@@ -22,10 +22,10 @@ Esse comando é usado para visualizar as diferenças entre o `working directory`
 
 De forma geral, usamos muito esse comando pra comparar o estado anterior vs  o que estamos modificando. Para instruções avançadas de como usar o diff, podemos consultar a documentação oficial do git [aqui](https://git-scm.com/book/pt-br/v2/Git-Essencial-Visualizando-Mudan%C3%A7as-no-Repository).
 
-## Commit 
+## Commit
 
 Após usar o comando `add` para adicionar os arquivos que queremos ao `staging area`, precisamos usar o comando `commit` para criar um commit com essas alterações. Conseguimos utilizar o comando `git status`, aprendido na aula anterior, para inclusive conferir quais arquivos estaremos adicionando no commit em questão.
-Um commit é uma forma de agrupar alterações em um ponto específico do tempo, ele é composto por um hash, autor, data, mensagem e um ponteiro para o commit anterior. 
+Um commit é uma forma de agrupar alterações em um ponto específico do tempo, ele é composto por um hash, autor, data, mensagem e um ponteiro para o commit anterior.
 
 Pra mais informações sobre commits, podemos consultar a documentação oficial o git [aqui](https://git-scm.com/book/pt-br/v2/Git-Essencial-Gravando-Altera%C3%A7%C3%B5es-no-Reposit%C3%B3rio).
 
@@ -57,6 +57,6 @@ Vamos corrigir esse problema!
 7. Podemos visualizar o histórico de commits usando o comando `git log` ou `git log --oneline` (eu sempr prefiro o --one-line).
 8. Com as mudanças realizadas localmente, precisamos enviar elas para o repositório remoto. Para isso, basta executar `git push origin lesson-3`.
 
---- 
+---
 
 Podemos seguir para a próxima aula na branch `lesson-4`.
