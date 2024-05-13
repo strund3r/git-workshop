@@ -1,4 +1,4 @@
-# Pula 8 (stash)
+# Aula 8 (stash)
 
 Quando estamos trabalhando em uma branch e precisamos mudar de branch, mas ainda não terminamos o que estamos fazendo podemos usar o comando `git stash` pra salvar o estado atual da branch e depois voltar pra ela e continuar o que estávamos fazendo.
 Stash funciona como uma pilha, então podemos salvar o estado atual da branch e depois voltar pra ela e salvar o estado atual novamente e assim por diante.
@@ -16,7 +16,6 @@ Esse é um comando bem comum quando precisamos pausar nosso trabalho corrente po
 
 Para mais informações sobre stash: https://git-scm.com/docs/git-stash
 
-
 # Prática 8
 
 1. Use o comando `git stash list` para listar o que está na sua stash
@@ -29,6 +28,6 @@ Para mais informações sobre stash: https://git-scm.com/docs/git-stash
 8. Vamos rodar `git stash pop` pra desempilhar a ultima alteração
 9. Agora com as 2 alterações no arquivo `lesson-8.md` podemos adicionar as alterações com `git add .` e depois `git commit -m "fix: lesson 9 reference"`
 
---- 
+---
 
-Podemos seguir para a próxima aula na branch `lesson-8`.
+Podemos seguir para a próxima aula na branch `lesson-9`.
